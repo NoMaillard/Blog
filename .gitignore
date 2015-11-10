@@ -16,3 +16,6 @@ node_modules
 
 public/libs
 .DS_Store
+noemaillard.com.sublime-project
+noemaillard.com.sublime-workspace
+public/css/styles.css
