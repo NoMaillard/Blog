@@ -1,0 +1,66 @@
+@import 'mixins.less';
+
+// ================ VARIABLES
+
+@navbar-bgc : #244395;
+@content-bgc : #ff1719;
+
+// ================ HEADER
+
+* {
+    font-family: 'Copse', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    margin: 0;
+
+    border: none;
+    border-radius: 0;
+    background-color: @navbar-bgc;
+    .container {
+        height: 120px;
+    }
+
+    .nav {
+        position: relative;
+
+        li {
+            position: absolute;
+
+        }
+    }
+}
+
+
+// ================ GLOBAL
+
+.container {
+    margin: auto;
+
+    border-radius: 0;
+}
+
+.container-fluid {
+    .jumbotron {
+        margin: 0;
+
+        border-radius: 0;
+    }
+    .container {
+        margin: 0;
+
+        background-color: darken(#fff, 2%);
+    }
+}
+
+
+
+
+// ================= FOOTER
+
+
+.panel-footer {
+    color: #fff;
+    background-color: #414040;
+}
