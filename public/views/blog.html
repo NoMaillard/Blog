@@ -1,6 +1,13 @@
-<div class="jumbotron text-center">
-    <ul ng-repeat="post in posts"></ul>
-	<h1>{{post.title}}</h1>
 
-	<p>{{ post.content }}</p>
-</div>
+<ul>
+    <li ng-repeat="post in posts" class="post">
+    <div ng-class-even="'triangle-topleft'" ng-class-odd="'trapeze-right'"></div>
+        <div class="container">
+            <section>
+                <header><h2>{{post.title}}</h2></header>
+                <div class="post-info">posted on <time>{{post.date}}</time></div>
+                <article><p>{{post.body}}</p></article>
+            </section>
+        </div>
+    </li>
+</ul>

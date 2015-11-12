@@ -1,0 +1,13 @@
+{
+    "posts": [{
+        "title" : "Raspberry pi powered alarm clock",
+        "date" : "Tuesday, 10th of November",
+        "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, dolores beatae iusto minima impedit consectetur veniam voluptates amet ipsum! Pariatur aliquid, quidem excepturi assumenda molestiae illo iste dolorem amet esse."
+        
+        },
+        {
+         "title" : "Raspberry pi powered alarm clock",
+         "date" : "Tuesday, 10th of November",
+         "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, dolores beatae iusto minima impedit consectetur veniam voluptates amet ipsum! Pariatur aliquid, quidem excepturi assumenda molestiae illo iste dolorem amet esse."
+        }]
+     }
